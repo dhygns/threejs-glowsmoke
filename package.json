@@ -1,0 +1,24 @@
+{
+  "name": "threejs-midivis",
+  "version": "1.0.0",
+  "description": "ink",
+  "main": "server.js",
+  "scripts": {
+    "build": "webpack --watch ./src/index.js ./build/index.bundle.js",
+    "start": "node server.js"
+  },
+  "author": "donghyeon kim",
+  "license": "MIT",
+  "devDependencies": {
+    "express": "^4.15.4",
+    "jsmediatags": "^3.7.0",
+    "three": "^0.86.0",
+    "webpack": "^3.5.3"
+  },
+  "keywords": [
+    "midi",
+    "visualization",
+    "fft",
+    "threejs"
+  ]
+}
